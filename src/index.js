@@ -1,7 +1,10 @@
 import React from 'react';
+import ReactDOM from 'react-dom';
 
-const App = function() {
+const API_KEY = 'AIzaSyCegKd2CfaWWI5xFYqludDONoqEzgMFx0A';
+
+const App = () => {
 	return <div>Hi!</div>;
 }
 
-React.render(App);
+ReactDOM.render(<App />, document.querySelector('.container'));
